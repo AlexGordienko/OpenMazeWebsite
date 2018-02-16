@@ -1,0 +1,36 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 160px;
+}
+.stickyFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 160px;
+}
+.footerContent{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* Video Carousel */
+.video-carousel{
+    max-height: 400px;
+}
+
+/*Features*/
+
+.keyFeaturesMargin{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.keyFeaturesContainer{
+    margin-bottom: 20px;
+}
