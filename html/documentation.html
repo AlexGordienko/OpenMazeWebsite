@@ -13,8 +13,12 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/documentation.css">
     <link rel='shortcut icon' type='image/x-icon' href='../favicon.ico'/>
+    <!-- side nav CSS from MDB -->
+    <link rel='stylesheet' id='compiled.css-css'  href='https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled.min.css?ver=4.4.0' type='text/css' media='all' />
+
+
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example3" data-offset="0">
 <nav class="navbar navbar-expand-lg navbar-dark indigo darken-4">
     <a class="navbar-brand" href="#">OpenMaze</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -44,61 +48,79 @@
     </div>
 </nav>
 
-<div class="container" style="margin-top: 30px; margin-bottom: 230px">
-    <div class="card">
-        <div class="card-body">
-            <!--Title-->
-            <h4 class="card-title">Latest Release Notes: v1.0.0</h4>
-            <!--Text-->
-            <div class="card-text">
-                <h5>Notable Updates</h5>
-                <ol>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                    <li>Sed tristique urna vel iaculis luctus. Fusce rutrum aliquet rutrum. </li>
-                    <li>Donec neque orci, tristique in posuere eget, lacinia et arcu.</li>
-                    <li>Curabitur est lorem, condimentum non massa vitae, porttitor vehicula tellus.</li>
-                </ol>
-            </div>
-            <a href="#" class="btn btn-deep-purple">Download</a>
-        </div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-9" data-spy="scroll" data-target="#navbar-example3" data-offset="1">
+        <div  class="container" style="margin-top: 30px; margin-bottom: 230px">
+            <div class="card">
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Latest Release Notes: v1.0.0</h4>
+                    <!--Text-->
+                    <div class="card-text">
+                        <h5>Notable Updates</h5>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                            <li>Sed tristique urna vel iaculis luctus. Fusce rutrum aliquet rutrum. </li>
+                            <li>Donec neque orci, tristique in posuere eget, lacinia et arcu.</li>
+                            <li>Curabitur est lorem, condimentum non massa vitae, porttitor vehicula tellus.</li>
+                        </ol>
+                    </div>
+                    <a href="#" class="btn btn-deep-purple">Download</a>
+                </div>
 
+            </div>
+
+            <br id="introduction"><br>
+            <h2>What is OpenMaze?</h2>
+            <hr>
+            <p>This is likely where a significant portion of the poster project will go. Description of what OpenMaze actually is, how it was built, all necessary background, all that jazz.</p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique urna vel iaculis luctus. Fusce rutrum aliquet rutrum. Donec neque orci, tristique in posuere eget, lacinia et arcu. Curabitur est lorem, condimentum non massa vitae, porttitor vehicula tellus. Aliquam nec augue et elit efficitur lobortis id eget lorem. Vivamus consectetur placerat venenatis. In imperdiet pretium ex eu tristique. Sed dignissim odio at lectus suscipit scelerisque. Sed sodales odio a ipsum semper, vel interdum augue pharetra. Mauris ultrices purus tortor, eget blandit diam pharetra non. Ut ut orci id ante semper eleifend id a purus. Suspendisse tempor tellus eu erat tempus, sed tempor est sodales. Nullam varius maximus dui a malesuada. Morbi at viverra ante.
+                <br><br>
+                Nullam porttitor eget odio vel egestas. Vestibulum ac molestie elit. Quisque faucibus, massa a sodales eleifend, nibh velit fringilla mauris, nec elementum nisi lacus quis nunc. Nunc vel sem dolor. Donec lacus tellus, ornare vel diam id, laoreet pretium nibh. Suspendisse leo nisl, mollis a enim fermentum, vestibulum laoreet ipsum. In turpis lectus, fermentum sollicitudin lorem a, suscipit suscipit ante. Praesent quis cursus nisi, a elementum tortor. Integer in ipsum quis metus imperdiet viverra. Etiam sollicitudin tristique lorem, quis cursus diam varius eget. Ut commodo vehicula metus. Pellentesque eros eros, faucibus id porttitor ut, consequat id quam. In imperdiet nisi ut ex semper, nec ultrices lacus porta. Duis aliquet eu justo ut interdum.
+                <br><br>
+                Integer et est enim. Vestibulum facilisis mattis fermentum. Nulla facilisi. Pellentesque commodo eros suscipit tincidunt efficitur. Praesent lectus metus, faucibus in tincidunt in, sagittis sed nisi. Curabitur tincidunt mi non sem luctus tristique. Quisque faucibus gravida nisi et mattis. Cras quis porttitor arcu, id interdum urna. Curabitur lacus nunc, semper nec blandit vitae, condimentum at magna.
+                <br><br>
+                Aenean at fringilla metus. Maecenas molestie commodo sem, nec iaculis purus rhoncus id. Donec lacus magna, pretium non viverra sed, dignissim eget dui. Cras id orci sollicitudin, ultricies diam sit amet, lacinia sem. Maecenas consequat quam enim, sit amet convallis nisl ultrices et. Aliquam malesuada tempor neque et mattis. Cras ornare elit in lacinia elementum. In at dapibus est.
+            </p>
+
+            <br id="previous-release-notes">
+            <div class="card">
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Release Notes: v0.9.1</h4>
+                    <!--Text-->
+                    <div class="card-text">
+                        <h5>Notable Updates</h5>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                            <li>Sed tristique urna vel iaculis luctus. Fusce rutrum aliquet rutrum. </li>
+                            <li>Donec neque orci, tristique in posuere eget, lacinia et arcu.</li>
+                            <li>Curabitur est lorem, condimentum non massa vitae, porttitor vehicula tellus.</li>
+                        </ol>
+                    </div>
+                    <a href="#" class="btn btn-deep-purple">Download</a>
+                </div>
+
+            </div>
+        </div>
     </div>
-
-    <br><br>
-    <h2>What is OpenMaze?</h2>
-    <hr>
-    <p>This is likely where a significant portion of the poster project will go. Description of what OpenMaze actually is, how it was built, all necessary background, all that jazz.</p>
-
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique urna vel iaculis luctus. Fusce rutrum aliquet rutrum. Donec neque orci, tristique in posuere eget, lacinia et arcu. Curabitur est lorem, condimentum non massa vitae, porttitor vehicula tellus. Aliquam nec augue et elit efficitur lobortis id eget lorem. Vivamus consectetur placerat venenatis. In imperdiet pretium ex eu tristique. Sed dignissim odio at lectus suscipit scelerisque. Sed sodales odio a ipsum semper, vel interdum augue pharetra. Mauris ultrices purus tortor, eget blandit diam pharetra non. Ut ut orci id ante semper eleifend id a purus. Suspendisse tempor tellus eu erat tempus, sed tempor est sodales. Nullam varius maximus dui a malesuada. Morbi at viverra ante.
-        <br><br>
-        Nullam porttitor eget odio vel egestas. Vestibulum ac molestie elit. Quisque faucibus, massa a sodales eleifend, nibh velit fringilla mauris, nec elementum nisi lacus quis nunc. Nunc vel sem dolor. Donec lacus tellus, ornare vel diam id, laoreet pretium nibh. Suspendisse leo nisl, mollis a enim fermentum, vestibulum laoreet ipsum. In turpis lectus, fermentum sollicitudin lorem a, suscipit suscipit ante. Praesent quis cursus nisi, a elementum tortor. Integer in ipsum quis metus imperdiet viverra. Etiam sollicitudin tristique lorem, quis cursus diam varius eget. Ut commodo vehicula metus. Pellentesque eros eros, faucibus id porttitor ut, consequat id quam. In imperdiet nisi ut ex semper, nec ultrices lacus porta. Duis aliquet eu justo ut interdum.
-        <br><br>
-        Integer et est enim. Vestibulum facilisis mattis fermentum. Nulla facilisi. Pellentesque commodo eros suscipit tincidunt efficitur. Praesent lectus metus, faucibus in tincidunt in, sagittis sed nisi. Curabitur tincidunt mi non sem luctus tristique. Quisque faucibus gravida nisi et mattis. Cras quis porttitor arcu, id interdum urna. Curabitur lacus nunc, semper nec blandit vitae, condimentum at magna.
-        <br><br>
-        Aenean at fringilla metus. Maecenas molestie commodo sem, nec iaculis purus rhoncus id. Donec lacus magna, pretium non viverra sed, dignissim eget dui. Cras id orci sollicitudin, ultricies diam sit amet, lacinia sem. Maecenas consequat quam enim, sit amet convallis nisl ultrices et. Aliquam malesuada tempor neque et mattis. Cras ornare elit in lacinia elementum. In at dapibus est.
-    </p>
-
-    <br>
-    <div class="card">
-        <div class="card-body">
-            <!--Title-->
-            <h4 class="card-title">Release Notes: v0.9.1</h4>
-            <!--Text-->
-            <div class="card-text">
-                <h5>Notable Updates</h5>
-                <ol>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                    <li>Sed tristique urna vel iaculis luctus. Fusce rutrum aliquet rutrum. </li>
-                    <li>Donec neque orci, tristique in posuere eget, lacinia et arcu.</li>
-                    <li>Curabitur est lorem, condimentum non massa vitae, porttitor vehicula tellus.</li>
-                </ol>
-            </div>
-            <a href="#" class="btn btn-deep-purple">Download</a>
+    <div class="col-md-2">
+        <div class="sticky" style="position: fixed; top: 90px">
+            <ul id="navbar-example3" class="nav nav-pills default-pills smooth-scroll " data-allow-hashes="true">
+                <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+                <li class="nav-item"><a class="nav-link" href="#config-file">Configuration File</a></li>
+                <li class="nav-item"><a class="nav-link" href="#data-extraction">Data Extraction</a></li>
+                <li class="nav-item"><a class="nav-link" href="#dynamic-maze-construction">Dynamic Maze Construction</a></li>
+                <li class="nav-item"><a class="nav-link" href="#previous-release-notes">Previous Release Notes</a></li>
+            </ul>
         </div>
-
+    </div>
     </div>
 </div>
+
 
 <!--Footer-->
 <footer class="stickyFooter page-footer indigo darken-4 center-on-small-only">
